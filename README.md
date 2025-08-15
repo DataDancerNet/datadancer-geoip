@@ -38,3 +38,37 @@ Clients should:
   "rollout": 100,
   "created_at": "2025-08-15T00:00:00Z"
 }
+```
+
+---
+
+## 🗄 Database Format
+
+The SQLite database contains:
+
+- countries – ISO country codes and names
+- ip_ranges – IP range → country mapping
+- metadata – build date, source information
+
+---
+
+## 🔒 License
+
+-Code: MIT License
+-Database content: Depends on the source datasets. See the repository LICENSE-DB.md for details.
+
+---
+
+## 🤝 Contributing
+
+- We welcome pull requests for:
+- Adding new or improved source parsers
+- Improving update workflows
+- Fixing incorrect IP → country mappings
+- Please open an issue before large changes.
+
+---
+
+## 📬 Contact
+
+For questions or integration help, please open a GitHub Issue or contact via https://datadancer.net.
