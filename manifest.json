@@ -1,0 +1,9 @@
+{
+  "version": "2025-08-15",
+  "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "asset": "geoip-20250815/geoip.sqlite.zst",
+  "suggested_ttl_days": 45,
+  "urgency": "normal",
+  "rollout": 100,
+  "created_at": "2025-08-15T00:00:00Z"
+}
